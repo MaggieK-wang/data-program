@@ -1,0 +1,40 @@
+###商品类别
+POST http://101.37.202.159:8081/cate/listCateGoryTree
+
+### 商品类别
+GET http://101.37.202.159:8081/cateGory/findCateGoryTree
+
+###商品列表
+POST http://101.37.202.159:8081/goods/listGoods
+Accept: application/json,text/application/javascript,
+Content-Type: application/json;charset=UTF-8
+
+
+{
+  "pageNum":"1",
+  "pageSize":"100"
+}
+
+### 商品列表
+POST http://101.37.202.159:8081/goods/listGoods
+Accept: application/json,text/javascript,*/*
+Content-Type: application/json; charset=UTF-8
+
+{
+    "pageNum":"1",
+    "pageSize":"100"
+}
+###轮播图
+Post http://101.37.202.159:8081/picture/listPic
+Accept: application/json,text/javascript,
+Content-Type: application/json; charset=UTF-8
+
+{
+    "picStatus":"1",
+    "picNum":"1",
+    "picSize":"10"
+}
+###
+Post http://101.37.202.159:8081/shoppingCar/findGoodsFromCar
+Accept: application/json,text/javascript,
+Content-Type: application/json; charset=UTF-8

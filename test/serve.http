@@ -1,0 +1,41 @@
+# 服务器地址
+
+
+###登录
+POST http://123.57.143.162:8081/customer/login
+Accept: application/json,text/javascript, */*
+Content-Type:application/json; charset=UTF-8
+
+{
+  "isAdmin": 0,
+  "loginAccount": "MaggieK_",
+  //"phone": "1020",
+  "password": "123456"
+}
+#####
+
+post http://123.57.143.162:8081/customer/addCustomer
+Accept: application/json,text/javascript, */*
+Content-Type:application/json; charset=UTF-8
+
+{
+  "createBy": "string",
+  "createdTime": "2020-05-20T02:14:36.304Z",
+  "email": "string",
+  "frontScore": "23",
+  "id": 0,
+  "idCard": "3223",
+  "isAdmin": 0,
+  "isDelete": 0,
+  "loginAccount": "string",
+  "pageNum": 0,
+  "pageSize": 0,
+  "password": "123456",
+  "phone": "1020",
+  "score": 0,
+  "updatedBy": "string",
+  "updatedTime": "2020-05-20T02:14:36.304Z",
+  "userAccount": "MaggieK_",
+  "userName": "MaggieK_",
+  "userSex": 0
+}
